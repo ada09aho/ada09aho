@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"-->
+
+<routes>
+
+	<vType id="BUS" vClass="bus" accel="1.3" decel="2.3" sigma="0.1" length="12.0" minGap="4.0" maxSpeed="19.5" speedFactor="normc(1,0.1,0.2,2)" laneChangeModel="SL2015" maxSpeedLat="1.0" minGapLat="0.6" latAlignment="nice"/>
+
+	<!-- The speedFactor parameter can be given as "norm(mean, dev)" or "normc(mean, dev, min, max)".
+	distribution where 95% of the vehicles drive between 80% and 120% of the legal speed limit. For flows,
+	every inserted vehicle will draw an individual chosen speed multiplier as well. The resulting values
+	in this example are capped at 20% of speedFactor at the low end to prevent extreme dawdling and at twice
+	the recommended speed. A vehicle keeps its chosen speed multiplier for the whole simulation and multiplies
+	it with edge speeds to compute the actual speed for driving on this edge. Thus vehicles can exceed
+	edge speeds. However, vehicle speeds are still capped at the vehicle type's maxSpeed.-->
+
+	<!-- Paste <flow> from automated tables (Numbers). Replace ';<' with '\n<' and '”' with '"'. Erase all other ';'.
+	Insert the suffixes s (from: -gneE657) and w (from: -gneE10) to distinguish between the two id:s 13s6s6.
+	Erase bus lines not in service during 17-18.
+	Colors: ORANGE -> 255,127,80 ; GREEN -> 34,139,34 ; YELLOW -> 255,215,0 ; WHITE -> 176,196,222 -->
+
+<flow id="bus3s1s6" color="255,127,80" begin="0" end="6900" number ="12" type="BUS" from="gneE660" to="gneE53">
+</flow>
+<flow id="bus13s6s6w" color="255,127,80" begin="0" end="6480" number ="5" type="BUS" from="-gneE10" to="gneE53">
+</flow>
+<flow id="bus21s6s11" color="255,127,80" begin="0" end="6600" number ="6" type="BUS" from="-gneE10" to="gneE553">
+<stop busStop="busStop_gneE26_0_13" duration="15"/>
+<stop busStop="busStop_gneE79_0_25" duration="15"/>
+<stop busStop="busStop_-gneE136_0_3" duration="15"/>
+<stop busStop="busStop_gneE142_0_8" duration="15"/>
+</flow>
+<flow id="bus28s5s1" color="255,127,80" begin="0" end="6600" number ="6" type="BUS" from="gneE666" to="gneE411">
+<stop busStop="busStop_gneE273_0_14" duration="15"/>
+<stop busStop="busStop_gneE618_2_11" duration="15"/>
+<stop busStop="busStop_gneE425_0_17" duration="15"/>
+</flow>
+<flow id="bus29s9s3" color="255,127,80" begin="0" end="6900" number ="12" type="BUS" from="-gneE133" to="gneE531">
+<stop busStop="busStop_-gneE133_0_2" duration="15"/>
+<stop busStop="busStop_gneE626_0_23" duration="15"/>
+<stop busStop="busStop_gneE531_0_21" duration="15"/>
+</flow>
+<flow id="bus76s1s5" color="34,139,34" begin="0" end="6600" number ="6" type="BUS" from="gneE412" to="gneE326">
+<stop busStop="busStop_gneE469_1_19" duration="15"/>
+<stop busStop="busStop_gneE79_0_25" duration="15"/>
+<stop busStop="busStop_gneE626_0_23" duration="15"/>
+<stop busStop="busStop_gneE262_0_12" duration="15"/>
+</flow>
+<flow id="bus84s3s11" color="34,139,34" begin="0" end="6900" number ="12" type="BUS" from="gneE532" to="gneE553">
+<stop busStop="busStop_gneE532_0_22" duration="15"/>
+<stop busStop="busStop_gneE629_0_24" duration="15"/>
+<stop busStop="busStop_gneE142_0_8" duration="15"/>
+</flow>
+<flow id="bus151s1s6" color="255,215,0" begin="0" end="6600" number ="6" type="BUS" from="gneE412" to="gneE53">
+<stop busStop="busStop_gneE469_1_19" duration="15"/>
+</flow>
+<flow id="bus187s3s9" color="255,215,0" begin="0" end="6900" number ="12" type="BUS" from="gneE532" to="gneE133">
+<stop busStop="busStop_gneE532_0_22" duration="15"/>
+</flow>
+<flow id="bus208s3s9" color="176,196,222" begin="0" end="6900" number ="12" type="BUS" from="gneE532" to="gneE133">
+<stop busStop="busStop_gneE532_0_22" duration="15"/>
+<stop busStop="busStop_gneE629_0_24" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="bus274s1s6" color="176,196,222" begin="0" end="6600" number ="6" type="BUS" from="gneE660" to="gneE53">
+<stop busStop="busStop_gneE469_1_19" duration="15"/>
+</flow>
+<flow id="bus288s5s9" color="176,196,222" begin="0" end="6900" number ="12" type="BUS" from="gneE666" to="gneE133">
+<stop busStop="busStop_gneE273_0_14" duration="15"/>
+<stop busStop="busStop_gneE629_0_24" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="bus1001s6s7" color="176,196,222" begin="0" end="6600" number ="6" type="BUS" from="-gneE657" to="gneE510">
+<stop busStop="busStop_gneE26_0_13" duration="15"/>
+<stop busStop="busStop_gneE509_0_20" duration="15"/>
+</flow>
+<flow id="bus22s3s1" color="255,127,80" begin="60" end="6660" number ="6" type="BUS" from="gneE532" to="gneE411">
+<stop busStop="busStop_gneE618_2_11" duration="15"/>
+<stop busStop="busStop_gneE425_0_17" duration="15"/>
+</flow>
+<flow id="bus29s5s9" color="255,127,80" begin="60" end="6960" number ="12" type="BUS" from="gneE666" to="gneE133">
+<stop busStop="busStop_gneE273_0_14" duration="15"/>
+<stop busStop="busStop_gneE629_0_24" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="bus30s6s6" color="255,127,80" begin="60" end="6360" number ="4" type="BUS" from="-gneE657" to="gneE10">
+<stop busStop="busStop_-gneE11_0_1" duration="15"/>
+</flow>
+<flow id="bus68s3s7" color="34,139,34" begin="60" end="6960" number ="12" type="BUS" from="gneE532" to="gneE510">
+<stop busStop="busStop_gneE532_0_22" duration="15"/>
+<stop busStop="busStop_gneE629_0_24" duration="15"/>
+<stop busStop="busStop_-gneE115_0_0" duration="15"/>
+<stop busStop="busStop_gneE509_0_20" duration="15"/>
+</flow>
+<flow id="bus187s9s3" color="255,215,0" begin="60" end="6960" number ="12" type="BUS" from="-gneE133" to="gneE531">
+<stop busStop="busStop_gneE531_0_21" duration="15"/>
+</flow>
+<flow id="busb2s3s9" color="red" begin="60" end="6960" number ="12" type="BUS" from="gneE532" to="gneE133">
+<stop busStop="busStop_gneE532_0_22" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="busb3s3s9" color="red" begin="60" end="6960" number ="12" type="BUS" from="gneE532" to="gneE133">
+<stop busStop="busStop_gneE532_0_22" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="bus5s5s9" color="255,127,80" begin="120" end="7020" number ="12" type="BUS" from="gneE666" to="gneE133">
+<stop busStop="busStop_gneE649_0_16" duration="15"/>
+<stop busStop="busStop_-gneE142_0_4" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="bus8s3s6" color="255,127,80" begin="120" end="7020" number ="12" type="BUS" from="gneE532" to="gneE53">
+<stop busStop="busStop_gneE618_2_11" duration="15"/>
+<stop busStop="busStop_gneE425_0_17" duration="15"/>
+<stop busStop="busStop_gneE469_1_19" duration="15"/>
+</flow>
+<flow id="bus11s1s11" color="255,127,80" begin="120" end="6720" number ="6" type="BUS" from="-gneE411" to="gneE670">
+<stop busStop="busStop_gneE611_0_5" duration="15"/>
+<stop busStop="busStop_gneE252_0_10" duration="15"/>
+<stop busStop="busStop_gneE262_0_12" duration="15"/>
+<stop busStop="busStop_gneE649_0_16" duration="15"/>
+</flow>
+<flow id="bus44s5s11" color="34,139,34" begin="120" end="7020" number ="12" type="BUS" from="gneE666" to="gneE553">
+<stop busStop="busStop_gneE649_0_16" duration="15"/>
+</flow>
+<flow id="bus88s5s11" color="34,139,34" begin="120" end="7020" number ="12" type="BUS" from="gneE666" to="gneE670">
+<stop busStop="busStop_gneE649_0_16" duration="15"/>
+</flow>
+<flow id="bus185s5s11" color="255,215,0" begin="120" end="7020" number ="12" type="BUS" from="gneE666" to="gneE670">
+</flow>
+<flow id="bus263s5s11" color="176,196,222" begin="120" end="7020" number ="12" type="BUS" from="gneE666" to="gneE670">
+</flow>
+<flow id="bus21s11s6" color="255,127,80" begin="180" end="6780" number ="6" type="BUS" from="-gneE553" to="gneE10">
+<stop busStop="busStop_-gneE142_0_4" duration="15"/>
+<stop busStop="busStop_-gneE115_0_0" duration="15"/>
+<stop busStop="busStop_-gneE72_0_6" duration="15"/>
+<stop busStop="busStop_-gneE11_0_1" duration="15"/>
+</flow>
+<flow id="bus35s11s7" color="34,139,34" begin="180" end="6780" number ="6" type="BUS" from="-gneE553" to="gneE510">
+<stop busStop="busStop_-gneE142_0_4" duration="15"/>
+<stop busStop="busStop_-gneE115_0_0" duration="15"/>
+<stop busStop="busStop_gneE509_0_20" duration="15"/>
+</flow>
+<flow id="bus66s11s9" color="34,139,34" begin="180" end="6780" number ="6" type="BUS" from="-gneE553" to="gneE133">
+<stop busStop="busStop_-gneE142_0_4" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="bus90s5s11" color="34,139,34" begin="180" end="7080" number ="12" type="BUS" from="gneE666" to="gneE670">
+<stop busStop="busStop_gneE649_0_16" duration="15"/>
+</flow>
+<flow id="bus111s5s9" color="255,215,0" begin="180" end="7080" number ="12" type="BUS" from="gneE666" to="gneE133">
+<stop busStop="busStop_gneE649_0_16" duration="15"/>
+<stop busStop="busStop_-gneE142_0_4" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="bus185s11s5" color="255,215,0" begin="180" end="7080" number ="12" type="BUS" from="-gneE669" to="gneE326">
+</flow>
+<flow id="bus200s11s9" color="176,196,222" begin="180" end="6780" number ="6" type="BUS" from="-gneE553" to="gneE133">
+<stop busStop="busStop_-gneE142_0_4" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="bus3s6s1" color="255,127,80" begin="240" end="7140" number ="12" type="BUS" from="-gneE657" to="gneE593">
+<stop busStop="busStop_gneE436_0_18" duration="15"/>
+</flow>
+<flow id="bus5s6s5" color="255,127,80" begin="240" end="7140" number ="12" type="BUS" from="-gneE10" to="gneE326">
+<stop busStop="busStop_gneE79_0_25" duration="15"/>
+<stop busStop="busStop_gneE626_0_23" duration="15"/>
+<stop busStop="busStop_gneE262_0_12" duration="15"/>
+</flow>
+<flow id="bus8s6s3" color="255,127,80" begin="240" end="7140" number ="12" type="BUS" from="-gneE657" to="gneE531">
+<stop busStop="busStop_gneE20_0_9" duration="15"/>
+<stop busStop="busStop_gneE436_0_18" duration="15"/>
+<stop busStop="busStop_gneE611_0_5" duration="15"/>
+<stop busStop="busStop_gneE252_0_10" duration="15"/>
+</flow>
+<flow id="bus24s6s1" color="255,127,80" begin="240" end="7040" number ="9" type="BUS" from="-gneE10" to="gneE411">
+<stop busStop="busStop_gneE20_0_9" duration="15"/>
+</flow>
+<flow id="bus32s1s9" color="34,139,34" begin="240" end="6540" number ="4" type="BUS" from="gneE412" to="gneE133">
+<stop busStop="busStop_gneE469_1_19" duration="15"/>
+<stop busStop="busStop_gneE79_0_25" duration="15"/>
+<stop busStop="busStop_gneE133_0_7" duration="15"/>
+</flow>
+<flow id="bus44s11s5" color="34,139,34" begin="240" end="7140" number ="12" type="BUS" from="-gneE553" to="gneE326">
+<stop busStop="busStop_gneE343_0_15" duration="15"/>
+</flow>
+<flow id="bus88s11s5" color="34,139,34" begin="240" end="7140" number ="12" type="BUS" from="-gneE669" to="gneE326">
+<stop busStop="busStop_gneE343_0_15" duration="15"/>
+</flow>
+<flow id="bus90s11s5" color="34,139,34" begin="240" end="7140" number ="12" type="BUS" from="-gneE669" to="gneE326">
+<stop busStop="busStop_gneE343_0_15" duration="15"/>
+</flow>
+<flow id="bus111s9s5" color="255,215,0" begin="240" end="7140" number ="12" type="BUS" from="-gneE133" to="gneE326">
+<stop busStop="busStop_-gneE133_0_2" duration="15"/>
+<stop busStop="busStop_gneE626_0_23" duration="15"/>
+<stop busStop="busStop_gneE262_0_12" duration="15"/>
+</flow>
+<flow id="bus151s6s1" color="255,215,0" begin="240" end="7140" number ="12" type="BUS" from="-gneE657" to="gneE411">
+<stop busStop="busStop_gneE20_0_9" duration="15"/>
+</flow>
+<flow id="bus208s9s3" color="176,196,222" begin="240" end="7140" number ="12" type="BUS" from="-gneE133" to="gneE531">
+<stop busStop="busStop_-gneE133_0_2" duration="15"/>
+<stop busStop="busStop_gneE626_0_23" duration="15"/>
+<stop busStop="busStop_gneE531_0_21" duration="15"/>
+</flow>
+<flow id="bus274s6s1" color="176,196,222" begin="240" end="7140" number ="12" type="BUS" from="-gneE657" to="gneE593">
+<stop busStop="busStop_gneE436_0_18" duration="15"/>
+</flow>
+<flow id="busb2s9s3" color="red" begin="240" end="7140" number ="12" type="BUS" from="-gneE133" to="gneE531">
+<stop busStop="busStop_-gneE133_0_2" duration="15"/>
+<stop busStop="busStop_gneE531_0_21" duration="15"/>
+</flow>
+<flow id="busb3s9s3" color="red" begin="240" end="7140" number ="12" type="BUS" from="-gneE133" to="gneE531">
+<stop busStop="busStop_-gneE133_0_2" duration="15"/>
+<stop busStop="busStop_gneE531_0_21" duration="15"/>
+</flow>
+<flow id="bus126s1s5" color="255,215,0" begin="300" end="6780" number ="5" type="BUS" from="-gneE411" to="gneE326">
+<stop busStop="busStop_gneE611_0_5" duration="15"/>
+<stop busStop="busStop_gneE252_0_10" duration="15"/>
+<stop busStop="busStop_gneE262_0_12" duration="15"/>
+</flow>
+<flow id="bus11s11s1" color="255,127,80" begin="360" end="6960" number ="6" type="BUS" from="-gneE669" to="gneE411">
+<stop busStop="busStop_gneE343_0_15" duration="15"/>
+<stop busStop="busStop_gneE273_0_14" duration="15"/>
+<stop busStop="busStop_gneE618_2_11" duration="15"/>
+<stop busStop="busStop_gneE425_0_17" duration="15"/>
+</flow>
+<flow id="bus28s1s5" color="255,127,80" begin="360" end="6960" number ="6" type="BUS" from="-gneE411" to="gneE326">
+<stop busStop="busStop_gneE611_0_5" duration="15"/>
+<stop busStop="busStop_gneE252_0_10" duration="15"/>
+<stop busStop="busStop_gneE262_0_12" duration="15"/>
+</flow>
+<flow id="bus32s9s1" color="34,139,34" begin="360" end="6660" number ="4" type="BUS" from="-gneE133" to="gneE411">
+<stop busStop="busStop_-gneE133_0_2" duration="15"/>
+<stop busStop="busStop_gneE618_2_11" duration="15"/>
+<stop busStop="busStop_gneE425_0_17" duration="15"/>
+</flow>
+<flow id="bus66s9s11" color="34,139,34" begin="360" end="6660" number ="4" type="BUS" from="-gneE133" to="gneE553">
+<stop busStop="busStop_-gneE133_0_2" duration="15"/>
+<stop busStop="busStop_gneE142_0_8" duration="15"/>
+</flow>
+<flow id="bus68s9s3" color="34,139,34" begin="360" end="7260" number ="12" type="BUS" from="-gneE133" to="gneE531">
+<stop busStop="busStop_-gneE133_0_2" duration="15"/>
+<stop busStop="busStop_gneE626_0_23" duration="15"/>
+<stop busStop="busStop_gneE531_0_21" duration="15"/>
+</flow>
+<flow id="bus30s6s7" color="255,127,80" begin="420" end="6720" number ="4" type="BUS" from="-gneE10" to="gneE510">
+<stop busStop="busStop_gneE509_0_20" duration="15"/>
+</flow>
+<flow id="bus35s6s11" color="34,139,34" begin="540" end="7020" number ="5" type="BUS" from="-gneE657" to="gneE553">
+<stop busStop="busStop_gneE79_0_25" duration="15"/>
+<stop busStop="busStop_gneE142_0_8" duration="15"/>
+</flow>
+<flow id="bus13s6s6s" color="255,127,80" begin="600" end="7080" number ="5" type="BUS" from="-gneE657" to="gneE10">
+<stop busStop="busStop_-gneE11_0_1" duration="15"/>
+</flow>
+<flow id="bus84s11s3" color="34,139,34" begin="660" end="6960" number ="4" type="BUS" from="-gneE553" to="gneE531">
+<stop busStop="busStop_-gneE142_0_4" duration="15"/>
+<stop busStop="busStop_gneE626_0_23" duration="15"/>
+<stop busStop="busStop_gneE531_0_21" duration="15"/>
+</flow>
+<flow id="bus126s5s1" color="255,215,0" begin="660" end="7140" number ="5" type="BUS" from="gneE666" to="gneE411">
+<stop busStop="busStop_gneE273_0_14" duration="15"/>
+<stop busStop="busStop_gneE618_2_11" duration="15"/>
+<stop busStop="busStop_gneE425_0_17" duration="15"/>
+</flow>
+<flow id="bus201s11s1" color="176,196,222" begin="660" end="6960" number ="4" type="BUS" from="-gneE553" to="gneE411">
+<stop busStop="busStop_-gneE142_0_4" duration="15"/>
+<stop busStop="busStop_gneE618_2_11" duration="15"/>
+<stop busStop="busStop_gneE425_0_17" duration="15"/>
+</flow>
+
+</routes>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- generated on Mon Jul 26 17:28:00 2021 by Anders Holmberg on Apple Numbers worksheet-->
+<!-- Trial with factor=100-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd" >
+  <vType id="commuter" vClass="passenger" color="orange" accel="2.6" decel="4.5" sigma="0.05" length="4.0" minGap="2.0" maxSpeed="25" speedDev="0.1" laneChangeModel="SL2015" maxSpeedLat="2.0" minGapLat="0.5" latAlignment="nice"/>
+<flow id="commuter0" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s1n_in" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter1" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s1n_in" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter2" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s1n_in" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter3" begin="900" end="8100" probability="0.010417" type="commuter" fromTaz="taz_s1n_in" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter4" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s1n_in" via="gneE25" toTaz="taz_s9s_out" departLane="best" departSpeed="random" color="gray" />
+<flow id="commuter5" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s1n_in" via="gneE25 gneE128" toTaz="taz_s11e_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter6" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s1n_in" via="gneE25 gneE128" toTaz="taz_s11s_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter7" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s1r_in" via="gneE681 gneE409" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter8" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s1r_in" via="gneE408.17" toTaz="taz_s5n_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter9" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s1r_in" via="gneE408.17" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter10" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s1r_in" via="gneE408.17" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter11" begin="900" end="8100" probability="0.010417" type="commuter" fromTaz="taz_s1r_in" via="gneE408.17" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter12" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s1r_in" via="gneE408.17 gneE628" toTaz="taz_s9s_out" departLane="best" departSpeed="random" color="gray" />
+<flow id="commuter13" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s1r_in" via="gneE408.17 gneE25 gneE128" toTaz="taz_s11e_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter14" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s1r_in" via="gneE408.17 gneE25 gneE128" toTaz="taz_s11s_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter15" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s1w_in" toTaz="taz_s1n_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter16" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s1w_in" toTaz="taz_s1r_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter17" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s1w_in" toTaz="taz_s5n_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter18" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s1w_in" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter19" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s1w_in" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter20" begin="900" end="8100" probability="0.041667" type="commuter" fromTaz="taz_s1w_in" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter21" begin="900" end="8100" probability="0.034722" type="commuter" fromTaz="taz_s1w_in" via="gneE628" toTaz="taz_s9s_out" departLane="best" departSpeed="random" color="gray" />
+<flow id="commuter22" begin="900" end="8100" probability="0.020833" type="commuter" fromTaz="taz_s1w_in" via="gneE25 gneE128" toTaz="taz_s11e_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter23" begin="900" end="8100" probability="0.020833" type="commuter" fromTaz="taz_s1w_in" via="gneE25 gneE128" toTaz="taz_s11s_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter24" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s3n_in" toTaz="taz_s1n_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter25" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s3n_in" toTaz="taz_s1r_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter26" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s3n_in" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter27" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s3n_in" toTaz="taz_s5n_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter28" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s3n_in" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter29" begin="900" end="8100" probability="0.034722" type="commuter" fromTaz="taz_s3n_in" via="-gneE121" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter30" begin="900" end="8100" probability="0.034722" type="commuter" fromTaz="taz_s3n_in" via="gneE413" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter31" begin="900" end="8100" probability="0.083333" type="commuter" fromTaz="taz_s3n_in" toTaz="taz_s9s_out" departLane="best" departSpeed="random" color="gray" />
+<flow id="commuter32" begin="900" end="8100" probability="0.048611" type="commuter" fromTaz="taz_s3n_in" via="gneE128" toTaz="taz_s11e_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter33" begin="900" end="8100" probability="0.034722" type="commuter" fromTaz="taz_s3n_in" via="gneE331" toTaz="taz_s11s_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter34" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s5n_in" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter35" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s5n_in" via="gneE256 gneE413" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter36" begin="900" end="8100" probability="0.010417" type="commuter" fromTaz="taz_s5n_in" via="gneE551 -gneE121" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter37" begin="900" end="8100" probability="0.048611" type="commuter" fromTaz="taz_s5n_in" via="gneE551" toTaz="taz_s9s_out" departLane="best" departSpeed="random" color="gray" />
+<flow id="commuter38" begin="900" end="8100" probability="0.083333" type="commuter" fromTaz="taz_s5n_in" toTaz="taz_s11e_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter39" begin="900" end="8100" probability="0.083333" type="commuter" fromTaz="taz_s5n_in" toTaz="taz_s11s_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter40" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s5r_in" toTaz="taz_s1n_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter41" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s5r_in" toTaz="taz_s1r_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter42" begin="900" end="8100" probability="0.010417" type="commuter" fromTaz="taz_s5r_in" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter43" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s5r_in" toTaz="taz_s5n_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter44" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s5r_in" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter45" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s5r_in" via="gneE256 gneE413" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter46" begin="900" end="8100" probability="0.010417" type="commuter" fromTaz="taz_s5r_in" via="gneE628 -gneE121" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter47" begin="900" end="8100" probability="0.034722" type="commuter" fromTaz="taz_s5r_in" via="gneE628" toTaz="taz_s9s_out" departLane="best" departSpeed="random" color="gray" />
+<flow id="commuter48" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s6w_in" via="gneE414" toTaz="taz_s1n_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter49" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s6w_in" via="gneE414" toTaz="taz_s1r_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter50" begin="900" end="8100" probability="0.020833" type="commuter" fromTaz="taz_s6w_in" via="gneE444 -gneE441" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter51" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s6w_in" via="-gneE406" toTaz="taz_s3n_out" departLane="best" departSpeed="random" color="cyan" />
+<flow id="commuter52" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s6w_in" via="-gneE406 gneE262" toTaz="taz_s5n_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter53" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s6w_in" via="gneE128 gneE555" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter54" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s6w_in" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter55" begin="900" end="8100" probability="0.0625" type="commuter" fromTaz="taz_s6w_in" toTaz="taz_s9s_out" departLane="best" departSpeed="random" color="gray" />
+<flow id="commuter56" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s6w_in" toTaz="taz_s11e_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter57" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s6w_in" toTaz="taz_s11s_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter58" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s6s_in" via="gneE414" toTaz="taz_s1n_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter59" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s6s_in" via="gneE414" toTaz="taz_s1r_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter60" begin="900" end="8100" probability="0.020833" type="commuter" fromTaz="taz_s6s_in" via="gneE444 -gneE441" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter61" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s6s_in" via="gneE131" toTaz="taz_s3n_out" departLane="best" departSpeed="random" color="cyan" />
+<flow id="commuter62" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s6s_in" via="-gneE406 gneE262" toTaz="taz_s5n_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter63" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s6s_in" via="gneE128 gneE555" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter64" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s6s_in" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter65" begin="900" end="8100" probability="0.048611" type="commuter" fromTaz="taz_s6s_in" toTaz="taz_s9s_out" departLane="best" departSpeed="random" color="gray" />
+<flow id="commuter66" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s6s_in" toTaz="taz_s11e_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter67" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s6s_in" toTaz="taz_s11s_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter68" begin="900" end="8100" probability="0.013889" type="commuter" fromTaz="taz_s9s_in" via="gneE20 gneE414" toTaz="taz_s1n_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter69" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s9s_in" via="gneE256" toTaz="taz_s1r_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter70" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s9s_in" via="gneE20" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter71" begin="900" end="8100" probability="0.069444" type="commuter" fromTaz="taz_s9s_in" toTaz="taz_s3n_out" departLane="best" departSpeed="random" color="cyan" />
+<flow id="commuter72" begin="900" end="8100" probability="0.034722" type="commuter" fromTaz="taz_s9s_in" via="gneE555" toTaz="taz_s5n_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter73" begin="900" end="8100" probability="0.069444" type="commuter" fromTaz="taz_s9s_in" via="gneE555" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter74" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s9s_in" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter75" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s9s_in" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter76" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s9s_in" toTaz="taz_s11e_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter77" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s9s_in" toTaz="taz_s11s_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter78" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s11e_in" via="-gneE121 gneE20 gneE414" toTaz="taz_s1n_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter79" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s11e_in" via="-gneE121 gneE20 gneE414" toTaz="taz_s1r_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter80" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s11e_in" via="gneE322 gneE256" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter81" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s11e_in" via="gneE131" toTaz="taz_s3n_out" departLane="best" departSpeed="random" color="cyan" />
+<flow id="commuter82" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s11e_in" via="gneE555" toTaz="taz_s5n_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter83" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s11e_in" via="gneE555" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter84" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s11e_in" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter85" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s11e_in" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter86" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s11e_in" toTaz="taz_s9s_out" departLane="best" departSpeed="random" color="gray" />
+<flow id="commuter87" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s11e_in" toTaz="taz_s11s_out" departLane="best" departSpeed="random" color="yellow" />
+<flow id="commuter88" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s11s_in" via="-gneE121 gneE20 gneE414" toTaz="taz_s1n_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter89" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s11s_in" via="-gneE121 gneE20 gneE414" toTaz="taz_s1r_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter90" begin="900" end="8100" probability="0.006944" type="commuter" fromTaz="taz_s11s_in" via="gneE322 gneE256 gneE444 -gneE441" toTaz="taz_s1w_out" departLane="best" departSpeed="random" color="white" />
+<flow id="commuter91" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s11s_in" via="gneE131" toTaz="taz_s3n_out" departLane="best" departSpeed="random" color="cyan" />
+<flow id="commuter92" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s11s_in" via="gneE555" toTaz="taz_s5n_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter93" begin="900" end="8100" probability="0.027778" type="commuter" fromTaz="taz_s11s_in" via="gneE555" toTaz="taz_s5r_out" departLane="best" departSpeed="random" color="magenta" />
+<flow id="commuter94" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s11s_in" toTaz="taz_s6w_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter95" begin="900" end="8100" probability="0.017361" type="commuter" fromTaz="taz_s11s_in" toTaz="taz_s6s_out" departLane="best" departSpeed="random" color="orange" />
+<flow id="commuter96" begin="900" end="8100" probability="0.003472" type="commuter" fromTaz="taz_s11s_in" toTaz="taz_s11e_out" departLane="best" departSpeed="random" color="yellow" />
+</routes>
