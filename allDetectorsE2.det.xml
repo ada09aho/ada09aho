@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mån  5 Jul 17:01:23 2021 by Eclipse SUMO netedit Version 1.9.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/Users/anders/tekno/__V2__/NET/v5_7.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/anders/tekno/__V2__/NET/v5_7.net.xml"/>
+    </output>
+
+    <processing>
+        <geometry.min-radius.fix.railways value="false"/>
+        <geometry.max-grade.fix value="false"/>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <tls_building>
+        <tls.ignore-internal-junction-jam value="true"/>
+    </tls_building>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+    <netedit>
+        <additional-files value="/Users/anders/tekno/__V2__/ADD/blomman.xml"/>
+    </netedit>
+
+    <report>
+        <aggregate-warnings value="5"/>
+    </report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+    <e2Detector id="e2Detector_s11eOut1" lane="gneE553_0" pos="1.30" length="40.00" freq="900.00" name="s11eOut" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11eOut2" lane="gneE553_1" pos="1.16" length="40.00" freq="900.00" name="s11eOut" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11en" lane="-gneE553_0" pos="234.41" length="40.00" freq="900.00" name="s11en" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11es" lane="-gneE553_2" pos="234.43" length="40.00" freq="900.00" name="s11ews" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11ew" lane="-gneE553_1" pos="234.35" length="40.00" freq="900.00" name="s11ew" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11nBusOut" lane="gneE555_0" pos="0.82" length="40.00" freq="900.00" name="s11nOutBus" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11nOut1" lane="gneE555_1" pos="0.53" length="40.00" freq="900.00" name="s11nOut" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11nOut2" lane="gneE555_2" pos="0.27" length="40.00" freq="900.00" name="s11nOut" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11ne" lane="-gneE555_3" pos="190.03" length="40.00" freq="900.00" name="s11ne" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11ns1" lane="-gneE555_1" pos="188.81" length="40.00" freq="900.00" name="s11ns" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11ns2" lane="-gneE555_2" pos="190.50" length="40.00" freq="900.00" name="s11ns" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11nwBus" lane="-gneE555_0" pos="189.60" length="40.00" freq="900.00" name="s11nwsBus" file="s11e2incoming.xml"/>
+    <e2Detector id="e2Detector_s11sBusOut" lane="-gneE554_0" pos="0.00" length="40.00" freq="900.00" name="s11sOutBus" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11sOut1" lane="-gneE554_1" pos="0.00" length="40.00" freq="900.00" name="s11sOut" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11sOut2" lane="-gneE554_2" pos="0.00" length="40.00" freq="900.00" name="s11sOut" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11se" lane="gneE554_0" pos="192.61" length="40.00" freq="900.00" name="s11se" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11sn1" lane="gneE554_2" pos="193.48" length="40.00" freq="900.00" name="s11sn" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11sn2" lane="gneE554_3" pos="193.21" length="40.00" freq="900.00" name="s11sn" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11snbus" lane="gneE554_1" pos="192.68" length="40.00" freq="900.00" name="s11snbus" file="s11e2incoming.xml"/>
+    <e2Detector id="e2Detector_s11sw" lane="gneE554_4" pos="193.13" length="40.00" freq="900.00" name="s11sw" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11wOut1" lane="-gneE552_0" pos="0.00" length="40.00" freq="900.00" name="s11wOut" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11wOut2" lane="-gneE552_1" pos="0.00" length="40.00" freq="900.00" name="s11wOut" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11wOut3" lane="-gneE552_2" pos="0.38" length="40.00" freq="900.00" name="s11wOut" file="s11e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11we1" lane="gneE552_0" pos="195.52" length="40.00" freq="900.00" name="s11we" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s11we2" lane="gneE552_1" pos="195.45" length="40.00" freq="900.00" name="s11wen" file="s11e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1eOut1" lane="-gneE406_0" pos="0.44" length="10.00" freq="900.00" name="s1eOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1eOut2" lane="-gneE406_1" pos="0.40" length="10.00" freq="900.00" name="s1eOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1en" lane="gneE406_0" pos="1.36" length="10.00" freq="900.00" name="s1en" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1es1" lane="gneE406_4" pos="1.19" length="10.00" freq="900.00" name="s1es" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1es2" lane="gneE406_5" pos="1.24" length="10.00" freq="900.00" name="s1es" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1ew1" lane="gneE406_1" pos="1.39" length="10.00" freq="900.00" name="s1ew" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1ew2" lane="gneE406_2" pos="1.35" length="10.00" freq="900.00" name="s1ew" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1ew3" lane="gneE406_3" pos="1.25" length="10.00" freq="900.00" name="s1ew" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1nOut1" lane="gneE593_2" pos="0.00" length="3.00" freq="900.00" name="s1nOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1nOut2" lane="gneE594_0" pos="0.00" length="3.00" freq="900.00" name="s1nOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1nOut3" lane="gneE594_1" pos="0.00" length="3.00" freq="900.00" name="s1nOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1ne1" lane="gneE409_3" pos="57.07" length="20.00" freq="900.00" name="s1ne" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1ne2" lane="gneE408.17_2" pos="59.14" length="20.00" freq="900.00" name="s1ne" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1ne3" lane="-gneE594_0" pos="80.26" length="20.00" freq="900.00" name="s1ne" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1ns1" lane="gneE408.17_0" pos="59.14" length="20.00" freq="900.00" name="s1ns" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1ns2" lane="gneE408.17_1" pos="59.14" length="20.00" freq="900.00" name="s1ns" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1nw1" lane="gneE409_2" pos="57.07" length="20.00" freq="900.00" name="s1nw" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1nw2" lane="gneE409_5" pos="57.07" length="20.00" freq="900.00" name="s1nw" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1sOut1" lane="gneE413_2" pos="1.33" length="20.00" freq="900.00" name="s1sOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1sOut2" lane="gneE413_3" pos="1.31" length="20.00" freq="900.00" name="s1sOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1se" lane="gneE415_1" pos="102.82" length="20.00" freq="900.00" name="s1se" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1sn1" lane="gneE414_0" pos="104.00" length="20.00" freq="900.00" name="s1sn" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1sn2" lane="gneE414_1" pos="104.00" length="20.00" freq="900.00" name="s1sn" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1sw1" lane="gneE414_2" pos="104.00" length="20.00" freq="900.00" name="s1sw" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1sw2" lane="-gneE413_0" pos="22.12" length="20.00" freq="900.00" name="s1sw" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1wOut1" lane="gneE410_2" pos="0.39" length="10.00" freq="900.00" name="s1wOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1wOut2" lane="gneE411_0" pos="0.33" length="10.00" freq="900.00" name="s1wOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1wOut3" lane="gneE411_1" pos="0.48" length="10.00" freq="900.00" name="s1wOut" file="s1e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1we1" lane="-gneE411_0" pos="48.14" length="20.00" freq="900.00" name="s1we" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1we2" lane="-gneE411_1" pos="48.14" length="20.00" freq="900.00" name="s1we" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1wn1" lane="-gneE411_2" pos="48.14" length="20.00" freq="900.00" name="s1wn" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1wn2" lane="-gneE411_3" pos="48.14" length="20.00" freq="900.00" name="s1wn" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s1ws" lane="gneE412_1" pos="47.22" length="20.00" freq="900.00" name="s1ws" file="s1e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3eOut1" lane="gneE262_0" pos="2.13" length="50.00" freq="900.00" name="s3eOut" file="s3e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3eOut2" lane="gneE262_1" pos="1.88" length="50.00" freq="900.00" name="s3eOut" file="s3e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3eOut3" lane="gneE262_2" pos="1.82" length="50.00" freq="900.00" name="s3eOut" file="s3e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3es1" lane="gneE269_2" pos="26.29" length="35.00" freq="900.00" name="s3es" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3es2" lane="gneE269_3" pos="26.41" length="35.00" freq="900.00" name="s3es" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3ew1" lane="gneE268_0" pos="28.48" length="35.00" freq="900.00" name="s3ew" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3ew2" lane="gneE269_0" pos="26.22" length="35.00" freq="900.00" name="s3ew" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3ew3" lane="gneE269_1" pos="26.05" length="35.00" freq="900.00" name="s3ew" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3nOut" lane="gneE394_0" pos="0.53" length="20.00" freq="900.00" name="s3nOut" file="s3e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3ne" lane="-gneE394.4_5" pos="0.00" length="20.00" freq="900.00" name="s3ne" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3ns1" lane="-gneE394.4_2" pos="0.00" length="20.00" freq="900.00" name="s3ns" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3ns2" lane="-gneE394.4_3" pos="0.00" length="20.00" freq="900.00" name="s3ns" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3ns3" lane="-gneE394.4_4" pos="0.00" length="20.00" freq="900.00" name="s3ns" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3nw1" lane="-gneE394.4_0" pos="0.00" length="20.00" freq="900.00" name="s3nw" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3nw2" lane="-gneE394.4_1" pos="0.00" length="20.00" freq="900.00" name="s3nw" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3sOut1" lane="gneE628_0" pos="0.00" length="45.00" freq="900.00" name="s3sOut" file="s3e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3sOut2" lane="gneE628_1" pos="0.00" length="45.00" freq="900.00" name="s3sOut" file="s3e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3se" lane="gneE627_0" pos="0.00" length="45.00" freq="900.00" name="s3se" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3sn1" lane="gneE627_1" pos="0.13" length="45.00" freq="900.00" name="s3sn" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3sn2" lane="gneE627_2" pos="0.00" length="45.00" freq="900.00" name="s3sn" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3sw1" lane="gneE627_3" pos="0.00" length="45.00" freq="900.00" name="s3sw" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3sw2" lane="gneE627_4" pos="0.00" length="45.00" freq="900.00" name="s3sw" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3wOut1" lane="gneE256_0" pos="4.21" length="50.00" freq="900.00" name="s3wOut" file="s3e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3wOut2" lane="gneE256_1" pos="4.26" length="50.00" freq="900.00" name="s3wOut" file="s3e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3wOut3" lane="gneE256_2" pos="4.20" length="50.00" freq="900.00" name="s3wOut" file="s3e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3we" lane="gneE255_3" pos="4.08" length="50.00" freq="900.00" name="s3wn" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3we1" lane="gneE255_0" pos="3.97" length="50.00" freq="900.00" name="s3we" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3we2" lane="gneE255_1" pos="3.96" length="50.00" freq="900.00" name="s3we" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3we3" lane="gneE255_2" pos="3.95" length="50.00" freq="900.00" name="s3we" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s3ws" lane="gneE396_2" pos="9.97" length="50.00" freq="900.00" name="s3ws" file="s3e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5busnws" lane="gneE328_0" pos="46.57" length="40.00" freq="900.00" name="s5bus" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5nOut1" lane="gneE326_1" pos="1.59" length="40.00" freq="900.00" name="s5nOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5nOut2" lane="gneE326_2" pos="1.55" length="40.00" freq="900.00" name="s5nOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5nbusOut" lane="gneE326_0" pos="1.41" length="40.00" freq="900.00" name="s5nbusOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5ns1" lane="gneE328_1" pos="46.44" length="40.00" freq="900.00" name="s5ns" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5ns2" lane="gneE328_2" pos="46.40" length="40.00" freq="900.00" name="s5ns" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5nw" lane="gneE327_1" pos="46.32" length="40.00" freq="900.00" name="s5nw" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5sOut1" lane="gneE331_0" pos="3.08" length="40.00" freq="900.00" name="s5sOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5sOut2" lane="gneE331_1" pos="3.53" length="40.00" freq="900.00" name="s5sOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5sOut3" lane="gneE331_2" pos="3.67" length="40.00" freq="900.00" name="s5sOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5sbusOut" lane="gneE648_2" pos="0.77" length="40.00" freq="900.00" name="s5sbusOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5sn1" lane="gneE404_1" pos="3.07" length="40.00" freq="900.00" name="s5sn" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5sn2" lane="gneE346_0" pos="3.23" length="40.00" freq="900.00" name="s5sn" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5sn3" lane="gneE346_1" pos="3.20" length="40.00" freq="900.00" name="s5sn" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5sw" lane="gneE346_2" pos="3.53" length="40.00" freq="900.00" name="s5sw" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5wOut1" lane="gneE322_0" pos="1.55" length="40.00" freq="900.00" name="s5wOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5wOut2" lane="gneE322_1" pos="1.65" length="40.00" freq="900.00" name="s5wOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5wOut3" lane="gneE322_2" pos="1.37" length="40.00" freq="900.00" name="s5wOut" file="s5e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5wn1" lane="gneE321_1" pos="8.80" length="40.00" freq="900.00" name="s5wn" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5wn2" lane="gneE321_2" pos="8.64" length="40.00" freq="900.00" name="s5wn" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5wn3" lane="gneE321_3" pos="8.80" length="40.00" freq="900.00" name="s5wn" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s5ws" lane="gneE321_0" pos="8.73" length="40.00" freq="900.00" name="s5ws" file="s5e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6eOut1" lane="gneE25_0" pos="3.66" length="25.00" freq="900.00" name="s6eOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6eOut2" lane="gneE25_1" pos="2.40" length="25.00" freq="900.00" name="s6eOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6eOut3" lane="gneE25_2" pos="2.18" length="25.00" freq="900.00" name="s6eOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6en" lane="-gneE25_0" pos="1.31" length="15.00" freq="900.00" name="s6en" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6es1" lane="-gneE25_3" pos="1.27" length="15.00" freq="900.00" name="s6es" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6es2" lane="-gneE25_4" pos="1.34" length="15.00" freq="900.00" name="s6es" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6ew1" lane="-gneE25_1" pos="1.30" length="15.00" freq="900.00" name="s6ew" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6ew2" lane="-gneE25_2" pos="1.36" length="15.00" freq="900.00" name="s6ew" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6nOut1" lane="gneE20_0" pos="4.10" length="45.00" freq="900.00" name="s6nOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6nOut2" lane="gneE20_1" pos="3.96" length="45.00" freq="900.00" name="s6nOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6nOut3" lane="gneE20_2" pos="4.83" length="45.00" freq="900.00" name="s6nOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6ne1" lane="gneE17_3" pos="52.50" length="45.00" freq="900.00" name="s6ne" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6ne2" lane="gneE17_4" pos="52.49" length="45.00" freq="900.00" name="s6ne" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6ns1" lane="gneE17_1" pos="52.40" length="45.00" freq="900.00" name="s6ns" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6ns2" lane="gneE17_2" pos="52.52" length="45.00" freq="900.00" name="s6ns" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6nw" lane="gneE17_0" pos="52.49" length="45.00" freq="900.00" name="s6nw" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6sOut1" lane="gneE526_0" pos="2.05" length="25.00" freq="900.00" name="s6sOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6sbusOut" lane="gneE53_2" pos="1.47" length="25.00" freq="900.00" name="s6sbusOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6se" lane="-gneE526_0" pos="165.72" length="45.00" freq="900.00" name="s6se" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6sn1" lane="-gneE526_1" pos="165.84" length="45.00" freq="900.00" name="s6sn" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6sn2" lane="-gneE526_2" pos="165.86" length="45.00" freq="900.00" name="s6sn" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6sw1" lane="gneE528_2" pos="9.69" length="25.00" freq="900.00" name="s6sw1" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6sw2" lane="-gneE526_3" pos="165.98" length="45.00" freq="900.00" name="s6sw" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6wOut1" lane="-gneE19_0" pos="1.19" length="45.00" freq="900.00" name="s6wOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6wOut2" lane="-gneE19_1" pos="1.32" length="45.00" freq="900.00" name="s6wOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6wOut3" lane="-gneE19_2" pos="1.74" length="45.00" freq="900.00" name="s6wOut" file="s6e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6we1" lane="gneE19_1" pos="5.91" length="45.00" freq="900.00" name="s6we" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6we2" lane="gneE19_2" pos="5.86" length="45.00" freq="900.00" name="s6we" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6wn1" lane="gneE19_3" pos="6.00" length="45.00" freq="900.00" name="s6wn" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6wn2" lane="gneE19_4" pos="6.07" length="45.00" freq="900.00" name="s6wn" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s6ws" lane="gneE19_0" pos="5.96" length="45.00" freq="900.00" name="s6ws" file="s6e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9eOut1" lane="gneE128_0" pos="0.41" length="40.00" freq="900.00" name="s9eOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9eOut2" lane="gneE128_1" pos="0.17" length="40.00" freq="900.00" name="s9eOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9eOut3" lane="gneE128_2" pos="0.00" length="40.00" freq="900.00" name="s9eOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9en" lane="-gneE128_0" pos="38.29" length="40.00" freq="900.00" name="s9en" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9es1" lane="-gneE128_3" pos="37.89" length="40.00" freq="900.00" name="s9es" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9es2" lane="-gneE128_4" pos="38.00" length="40.00" freq="900.00" name="s9es" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9ew1" lane="-gneE128_1" pos="37.89" length="40.00" freq="900.00" name="s9ew" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9ew2" lane="-gneE128_2" pos="38.07" length="40.00" freq="900.00" name="s9ew" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9nOut1" lane="gneE131_0" pos="0.10" length="40.00" freq="900.00" name="s9nOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9nOut2" lane="gneE131_1" pos="0.00" length="40.00" freq="900.00" name="s9nOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9ne" lane="-gneE131_2" pos="83.77" length="40.00" freq="900.00" name="s9ne" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9ns" lane="-gneE131_1" pos="83.82" length="40.00" freq="900.00" name="s9ns" file="s9e2incoming.xml"/>
+    <e2Detector id="e2Detector_s9nw" lane="-gneE131_0" pos="83.74" length="40.00" freq="900.00" name="s9nw" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9sOut1" lane="gneE656_0" pos="0.53" length="40.00" freq="900.00" name="s9sOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9sOut2" lane="gneE656_1" pos="0.33" length="40.00" freq="900.00" name="s9sOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9se" lane="-gneE126_0" pos="30.35" length="40.00" freq="900.00" name="s9se" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9sn" lane="-gneE126_1" pos="29.93" length="40.00" freq="900.00" name="s9sn" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9sw" lane="-gneE656_0" pos="31.89" length="40.00" freq="900.00" name="s9sw" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9wOut1" lane="-gneE121_0" pos="0.00" length="35.00" freq="900.00" name="s9wOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9wOut2" lane="-gneE121_1" pos="0.00" length="35.00" freq="900.00" name="s9wOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9wOut3" lane="-gneE121_2" pos="0.00" length="35.00" freq="900.00" name="s9wOut" file="s9e2outgoing.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9we1" lane="gneE121_1" pos="2.48" length="34.00" freq="900.00" name="s9we" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9we2" lane="gneE121_2" pos="2.68" length="34.00" freq="900.00" name="s9we" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9wn1" lane="gneE121_3" pos="2.59" length="34.00" freq="900.00" name="s9wn" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9wn2" lane="gneE121_4" pos="2.41" length="34.00" freq="900.00" name="s9wn" file="s9e2incoming.xml" friendlyPos="1"/>
+    <e2Detector id="e2Detector_s9ws1" lane="gneE121_0" pos="2.21" length="34.00" freq="900.00" name="s9ws" file="s9e2incoming.xml" friendlyPos="1"/>
+    <!-- Fringe entries-->
+    <e2Detector id="taz_s1n0" name="taz_s1n_in_0" length="5.00" lane="gneE660_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s1n1" name="taz_s1n_in_1" length="5.00" lane="gneE660_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s1n3" name="taz_s1n_in_3" length="5.00" lane="gneE660_3" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s1r0" name="taz_s1r_in_0" length="5.00" lane="-gneE659_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s1w0" name="taz_s1w_in_0" length="5.00" lane="gneE412_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s1w1" name="taz_s1w_in_1" length="5.00" lane="-gneE411_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s1w2" name="taz_s1w_in_2" length="5.00" lane="-gneE411_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s1w3" name="taz_s1w_in_3" length="5.00" lane="-gneE411_2" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s1w4" name="taz_s1w_in_4" length="5.00" lane="-gneE411_3" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s3n0" name="taz_s3n_in_0" length="5.00" lane="gneE532_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s3n1" name="taz_s3n_in_1" length="5.00" lane="gneE532_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s5n0" name="taz_s5n_in_0" length="5.00" lane="gneE666_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s5n1" name="taz_s5n_in_1" length="5.00" lane="gneE666_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s5n2" name="taz_s5n_in_2" length="5.00" lane="gneE667_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s5n3" name="taz_s5n_in_3" length="5.00" lane="gneE667_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s5r0" name="taz_s5r_in_0" length="5.00" lane="-gneE675_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s6w0" name="taz_s6w_in_0" length="5.00" lane="-gneE10_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s6w1" name="taz_s6w_in_1" length="5.00" lane="-gneE10_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s6w2" name="taz_s6w_in_2" length="5.00" lane="-gneE10_2" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s6s0" name="taz_s6s_in_0" length="5.00" lane="-gneE657_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s6s1" name="taz_s6s_in_1" length="5.00" lane="-gneE657_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s6s2" name="taz_s6s_in_2" length="5.00" lane="-gneE657_2" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s9s0" name="taz_s9s_in_0" length="5.00" lane="-gneE133_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s9s1" name="taz_s9s_in_1" length="5.00" lane="-gneE133_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s9s2" name="taz_s9s_in_2" length="5.00" lane="-gneE133_2" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s11s0" name="taz_s11s_in_0" length="5.00" lane="-gneE669_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s11s1" name="taz_s11s_in_1" length="5.00" lane="-gneE669_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s11s2" name="taz_s11s_in_2" length="5.00" lane="-gneE669_2" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s11e0" name="taz_s11e_in_0" length="5.00" lane="-gneE553_0" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s11e1" name="taz_s11e_in_1" length="5.00" lane="-gneE553_1" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+    <e2Detector id="taz_s11e2" name="taz_s11e_in_2" length="5.00" lane="-gneE553_2" pos="0.10" freq="900.00" file="tazIN.xml" friendlyPos="1"/>
+</additional>

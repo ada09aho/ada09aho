@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Mån  3 Jun 16:58:12 2019 by Eclipse SUMO netedit Version 1.0.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+    <input>
+        <sumo-net-file value="/Users/anders/Documents/sumo-repos/version5o5anders.net.xml"/>
+    </input>
+
+    <output>
+        <output-file value="/Users/anders/Documents/sumo-repos/version5o5anders.net.xml"/>
+    </output>
+
+    <processing>
+        <offset.disable-normalization value="true"/>
+        <lefthand value="false"/>
+    </processing>
+
+    <junctions>
+        <no-internal-links value="false"/>
+        <no-turnarounds value="true"/>
+        <junctions.corner-detail value="5"/>
+        <junctions.limit-turn-speed value="5.5"/>
+        <rectangular-lane-cut value="false"/>
+    </junctions>
+
+    <pedestrian>
+        <walkingareas value="true"/>
+    </pedestrian>
+
+</configuration>
+-->
+
+<!--additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd"-->
+<additional>
+    <busStop id="busStop_-gneE115_0_0" name="fq3w" lane="-gneE115_0" lines="5;21;35;68;76;201" startPos="29.86" endPos="59.86"/>
+    <busStop id="busStop_-gneE11_0_1" name="fq1w" lane="-gneE11_0" friendlyPos="1" lines="5;13;21;30;32;201" startPos="0.00" endPos="20"/>
+    <busStop id="busStop_-gneE133_0_2" name="jgn2n" lane="-gneE133_0" lines="29;32;66;68;111;182;187;200;208;b2" startPos="129.53" endPos="159.53"/>
+    <busStop id="busStop_-gneE136_0_3" name="fq3e" lane="-gneE136_0" lines="5;21;35;66;200;201" startPos="1.78" endPos="31.78"/>
+    <busStop id="busStop_-gneE142_0_4" name="fq4w" lane="-gneE142_0" lines="5;21;35;66;111;200;201" startPos="22.22" endPos="52.22"/>
+    <busStop id="busStop_gneE611_0_5" name="tyc1e" lane="gneE611_0" lines="8;11;28;126;221;228;275" startPos="27.97" endPos="55.21"/>
+    <busStop id="busStop_-gneE72_0_6" name="fq2w" lane="-gneE72_0" lines="5;21;32;35;76;201" startPos="3.94" endPos="33.94"/>
+    <busStop id="busStop_gneE133_0_7" name="jgn2s" lane="gneE133_0" lines="29;32;66;111;182;187;200;208;288;b2" startPos="63.43" endPos="93.43"/>
+    <busStop id="busStop_gneE142_0_8" name="fq4e" lane="gneE142_0" friendlyPos="1" lines="5;21;35;66;84;111;200;201" startPos="26.06" endPos="56.06"/>
+    <busStop id="busStop_gneE20_0_9" name="zhn2n" lane="gneE20_0" lines="3;8;274" startPos="24.76" endPos="54.76"/>
+    <busStop id="busStop_gneE252_0_10" name="tyc2e" lane="gneE252_0" lines="8;11;28;126;221;228" startPos="96.75" endPos="126.75"/>
+    <busStop id="busStop_gneE618_2_11" name="tyc2w" lane="gneE618_2" lines="8;11;28;126;221;228" startPos="30.85" endPos="60.85"/>
+    <busStop id="busStop_gneE262_0_12" name="tyc3e" lane="gneE262_0" lines="8;11;28;29;126;187;208;221;228;275" startPos="64.08" endPos="94.08"/>
+    <busStop id="busStop_gneE26_0_13" name="fq1e" lane="gneE26_0" lines="5;21;32;35;201;1001" startPos="77.46" endPos="107.46"/>
+    <busStop id="busStop_gneE273_0_14" name="tyc3w" lane="gneE273_0" lines="11;28;126;221;228;275;288" startPos="20.00" endPos="50.00"/>
+    <busStop id="busStop_gneE343_0_15" name="hce1n" lane="gneE343_0" friendlyPos="1" lines="5;11;44;84;88;90;111;128;183;185;b3c;b3" startPos="0" endPos="30"/>
+    <busStop id="busStop_gneE649_0_16" name="hce1s" lane="gneE649_0" lines="5;11;44;84;88;90;111;128;183;185;b3c;b3" startPos="6.80" endPos="36.80"/>
+    <busStop id="busStop_gneE425_0_17" name="tyc1w" lane="gneE425_0" lines="8;11;22;28;126;221;228;275;b2" startPos="10.06" endPos="40.06"/>
+    <busStop id="busStop_gneE436_0_18" name="zhn1n" lane="gneE436_0" lines="3;8;274" startPos="56.21" endPos="86.21"/>
+    <busStop id="busStop_gneE469_1_19" name="zhn1s" lane="gneE469_1" lines="8;151;274" startPos="29.81" endPos="59.81"/>
+    <busStop id="busStop_gneE509_0_20" name="xh1s" lane="gneE509_0" lines="68;1001" startPos="67.83" endPos="97.83"/>
+    <busStop id="busStop_gneE531_0_21" name="jgn0n" lane="gneE531_0" startPos="121.77" endPos="151.77"/>
+    <busStop id="busStop_gneE532_0_22" name="jgn0s" lane="gneE532_0" startPos="89.74" endPos="119.74"/>
+    <busStop id="busStop_gneE626_0_23" name="jgn1n" lane="gneE626_0" startPos="16.00" endPos="46.00"/>
+    <busStop id="busStop_gneE629_0_24" name="jgn1s" lane="gneE629_0" startPos="81.00" endPos="111.00"/>
+    <busStop id="busStop_gneE79_0_25" name="fq2e" lane="gneE79_0" lines="5;21;32;35;201" startPos="76.58" endPos="103.86"/>
+</additional>
