@@ -1,5 +1,5 @@
 - 👋 Hi, I’m @ada09aho
-- 👀 I’m interested in Python code, SUMO simulation software.
+- 👀 I’m interested in Python code and SUMO simulation software.
 - 🌱 I’m currently learning bachelor's degree in computer science.
 - 💞️ I’m looking to collaborate on simulate traffic with SUMO.
 - 📫 How to reach me: ada09aho@student.lu.se
