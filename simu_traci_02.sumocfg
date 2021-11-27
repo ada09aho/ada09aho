@@ -7,8 +7,7 @@
         <lateral-resolution value="1.6"/>
         <gui-settings-file value="gui-settings_s1.cfg.xml, gui-settings_s3.cfg.xml, gui-settings_s5.cfg.xml, gui-settings_s6.cfg.xml, gui-settings_s9.cfg.xml, gui-settings_s11.cfg.xml"/>
         <route-files value="ROU/random99th11_RED_ALT_chS3-1.rou.xml, ROU/seed99Routes_private.rou.xml, ROU/busFlow7200sV5Sorted.rou.xml, ROU/commutersFLOW4e.rou.xml"/>
-        <additional-files value="ADD/projektkorsning.poly.xml, ADD/busStopsV5.add.xml, TAZ/fringeTAZ.taz.xml, ADD/allDetectorsE2.det.xml"/> <!-- TLS/TLSfinal_G_v3-4altd.tls.xml,  -->
-        <!--additional-files value="LOUISE/turnRatios-s33-th100-p-changed.add.xml, ADD/projektkorsning.poly.xml, ADD/busStopsV5.add.xml, TLS/TLSfinal_100_33_v3-2.tls.xml"/-->
+        <additional-files value="ADD/projektkorsning.poly.xml, ADD/busStopsV5.add.xml, TAZ/fringeTAZ.taz.xml, ADD/allDetectorsE2.det.xml"/>
     </input>
 
     <time>
@@ -17,13 +16,4 @@
         <end value="8100"/>
     </time>
 
-
-<!--
-
-    <parking-lot: v5_5_5_ignore.net.xml, ROU/randomCars33_NO_FRINGE.rou.xml, ROU/randomCars.rou.xml, ROU/commuters33_b30_e120.rou.xml,  />
-    <report>
-        <no-duration-log value="true"/>
-        <no-step-log value="true"/>
-    </report>
--->
 </configuration>
