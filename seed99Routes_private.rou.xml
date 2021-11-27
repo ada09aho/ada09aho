@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on 2021-06-22 15:34:15 by Eclipse SUMO duarouter Version 1.9.1
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
+
+    <input>
+        <net-file value="v5_7.net.xml"/>
+        <route-files value="trips.trips.xml"/>
+    </input>
+
+    <output>
+        <output-file value="seed99Routes_private.rou.xml"/>
+        <alternatives-output value="seed99Routes_private.rou.alt.xml"/>
+    </output>
+
+    <time>
+        <begin value="0"/>
+        <end value="7200"/>
+    </time>
+
+    <report>
+        <no-warnings value="true"/>
+        <ignore-errors value="true"/>
+        <no-step-log value="true"/>
+    </report>
+
+</configuration>
+-->
+
+<routes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/routes_file.xsd">
+    <vType id="private" length="4.00" minGap="2.00" maxSpeed="25.00" speedFactor="normc(1.00,0.10,0.20,2.00)" vClass="private" color="blue" minGapLat="0.50" laneChangeModel="SL2015" accel="2.6" decel="4.5" sigma="0.2"/>
+    <vehicle id="private0" type="private" depart="623.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 gneE408 gneE408.17 gneE413 gneE440 gneE469 gneE470 gneE471 gneE443 gneE17 gneE25 gneE26 gneE70 -gneE71 gneE72 gneE73 gneE79 gneE115 gneE116 gneE120 gneE121 gneE128 -gneE136 gneE137 gneE140 gneE142 gneE552 gneE555 -gneE210"/>
+    </vehicle>
+    <vehicle id="private1" type="private" depart="1027.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE71 -gneE70 -gneE60 gneE91 gneE461 gneE463 gneE309 gneE252 gneE253 gneE255 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private2" type="private" depart="1178.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE484 gneE485 gneE423 gneE428 gneE296 gneE406 gneE413 gneE440 gneE469 gneE470 gneE471 gneE443 gneE17 gneE25 gneE26 gneE70 -gneE71 gneE72 gneE73 gneE79 gneE115 gneE116 gneE120 gneE121 gneE656"/>
+    </vehicle>
+    <vehicle id="private3" type="private" depart="1369.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE526 gneE20 gneE436 gneE415 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private4" type="private" depart="1708.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE351 -gneE140 -gneE137 gneE136 -gneE128 gneE131 gneE376 gneE377 gneE378 gneE626 gneE627 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private5" type="private" depart="1819.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE411 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE396 gneE628 gneE629 gneE248 gneE374 gneE375 -gneE131 gneE128 -gneE136 gneE137 gneE140 gneE142 gneE552 gneE555"/>
+    </vehicle>
+    <vehicle id="private6" type="private" depart="1888.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE263 gneE273 gneE269 gneE262 gneE270 gneE274 gneE279 gneE320 gneE321 gneE331 gneE332 gneE333 gneE334 gneE336"/>
+    </vehicle>
+    <vehicle id="private7" type="private" depart="1913.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE396 gneE628 gneE629 gneE248 gneE374 gneE375 -gneE131 gneE128 -gneE136 gneE137 gneE140 gneE142 gneE552 gneE555 -gneE210"/>
+    </vehicle>
+    <vehicle id="private8" type="private" depart="2212.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE396 gneE628 gneE629 gneE248 gneE374 gneE375 -gneE131 -gneE121 -gneE120 -gneE116 -gneE115 -gneE79 -gneE73 -gneE72 gneE71 -gneE70 -gneE26 -gneE25 gneE20 gneE436 gneE414 gneE594 gneE594.1 gneE659"/>
+    </vehicle>
+    <vehicle id="private9" type="private" depart="2318.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 -gneE594 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private10" type="private" depart="2691.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 -gneE594 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private11" type="private" depart="2894.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE267 gneE268 gneE256 gneE257 gneE261 -gneE297 gneE290 gneE291 gneE293 gneE294 gneE295 gneE296 gneE406 gneE413 gneE440 gneE469 gneE470 gneE471 gneE443 gneE17 gneE25 gneE26 gneE70 -gneE71 gneE72 gneE73 -gneE73 -gneE72 gneE71 -gneE70 -gneE26 -gneE25"/>
+    </vehicle>
+    <vehicle id="private12" type="private" depart="2904.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 -gneE594 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private13" type="private" depart="2940.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 gneE408 gneE408.17 gneE413 gneE440 gneE469 gneE470 gneE471 gneE443 gneE17 gneE25 gneE26 gneE70 -gneE71 gneE72 gneE73 gneE79 gneE115 gneE116 gneE120 gneE121 gneE128 -gneE136 gneE137 gneE140 gneE142 gneE552 gneE555 -gneE210 gneE337 gneE343 gneE399 gneE400"/>
+    </vehicle>
+    <vehicle id="private14" type="private" depart="3108.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 gneE408 gneE408.17 gneE413 gneE440 gneE469 gneE470 gneE471 gneE443 gneE17 gneE25 gneE26 gneE70 -gneE71 gneE72 gneE73 gneE79 gneE115 gneE116 gneE120 gneE121 gneE128 -gneE136 gneE137 gneE140 gneE142 gneE552 gneE555 -gneE210 gneE337"/>
+    </vehicle>
+    <vehicle id="private15" type="private" depart="3301.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE136 -gneE128 gneE131 gneE376 gneE377 gneE378 gneE626 gneE627 gneE256 gneE257 gneE261 -gneE297 gneE290 gneE291 gneE293 gneE294 gneE295 gneE430 gneE406 gneE594 gneE594.1 gneE659"/>
+    </vehicle>
+    <vehicle id="private16" type="private" depart="3354.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 gneE408 gneE408.17 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE262 gneE270 gneE274 gneE279 gneE320 gneE313 gneE311 gneE688 gneE272 gneE271 gneE263 gneE273"/>
+    </vehicle>
+    <vehicle id="private17" type="private" depart="3405.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE343 gneE344 gneE346 gneE322 gneE311 gneE688 gneE272 gneE271 gneE263 gneE273 gneE267 gneE268 gneE256 gneE257 gneE261 -gneE297 gneE290 gneE291 gneE480"/>
+    </vehicle>
+    <vehicle id="private18" type="private" depart="3893.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE267 gneE268 gneE256 gneE257 gneE261 -gneE297 gneE290 gneE291 gneE293 gneE294 gneE295 gneE430 gneE406 gneE594 gneE594.1 gneE659"/>
+    </vehicle>
+    <vehicle id="private19" type="private" depart="3907.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE555 -gneE210 gneE337 gneE343 gneE344 gneE346 gneE322 gneE311 gneE688 gneE272 gneE271 gneE263 gneE273 gneE269 gneE628 gneE629 gneE248 gneE374 gneE375 -gneE131 -gneE121 -gneE120 -gneE116 -gneE115 -gneE79 gneE509 gneE510"/>
+    </vehicle>
+    <vehicle id="private20" type="private" depart="4145.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE71 -gneE70 -gneE26 -gneE25 gneE25 gneE26 gneE70 -gneE71 gneE72 gneE73 gneE79 gneE115 gneE116 gneE120 gneE121 gneE128 -gneE136 gneE137 gneE140 gneE142 gneE145 gneE147"/>
+    </vehicle>
+    <vehicle id="private21" type="private" depart="4397.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE121 gneE131 gneE376 gneE377 gneE378 gneE626 gneE627 gneE256 gneE257 gneE261 -gneE297 gneE290 gneE291 gneE293 gneE294 gneE295 gneE430 gneE406 gneE594"/>
+    </vehicle>
+    <vehicle id="private22" type="private" depart="4540.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE484 gneE485 gneE423 gneE428 gneE296 gneE406 gneE413 gneE440 gneE469 gneE470 gneE471 gneE443 gneE17 gneE20 gneE436 gneE415 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private23" type="private" depart="4840.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 -gneE594 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private25" type="private" depart="5146.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE675 -gneE277 gneE276 gneE272 gneE271 gneE263 gneE273 gneE267 gneE268 gneE256 gneE257 gneE261 -gneE297 gneE290 gneE291 gneE293 gneE294 gneE295 gneE430 gneE406 gneE594 gneE594.1 gneE659"/>
+    </vehicle>
+    <vehicle id="private26" type="private" depart="5288.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="gneE443 gneE17 gneE20 gneE436 gneE415 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private27" type="private" depart="6031.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE11 gneE450 gneE16 gneE17 gneE20 gneE436 gneE414 gneE594 gneE594.1 gneE659"/>
+    </vehicle>
+    <vehicle id="private28" type="private" depart="6384.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 gneE408 gneE408.17 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE262 gneE270 gneE274 gneE279 gneE320 gneE321 gneE331 gneE332 gneE333 gneE334 gneE651"/>
+    </vehicle>
+    <vehicle id="private29" type="private" depart="6599.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE659 -gneE594 -gneE406 -gneE296 -gneE295 -gneE294 -gneE293 -gneE291 -gneE290 gneE297 gneE252 gneE253 gneE255 gneE394 gneE531"/>
+    </vehicle>
+    <vehicle id="private30" type="private" depart="6670.00" departLane="free" departPos="random_free" departSpeed="random">
+        <route edges="-gneE121 -gneE120 -gneE116 gneE117 gneE457 gneE459 gneE253 gneE255 gneE262 gneE270 gneE274 gneE279 gneE320 gneE321 gneE331 gneE332"/>
+    </vehicle>
+</routes>
