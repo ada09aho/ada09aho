@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- generated on Tor 17 Jun 16:43:06 2021 by Eclipse SUMO netedit Version 1.9.0
+<configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/netconvertConfiguration.xsd">
+
+<input>
+<sumo-net-file value="/Users/anders/tekno/__V2__/NET/v5_7.net.xml"/>
+</input>
+
+<output>
+<output-file value="/Users/anders/tekno/__V2__/NET/v5_7.net.xml"/>
+</output>
+
+<processing>
+<geometry.min-radius.fix.railways value="false"/>
+<geometry.max-grade.fix value="false"/>
+<offset.disable-normalization value="true"/>
+<lefthand value="false"/>
+</processing>
+
+<tls_building>
+<tls.ignore-internal-junction-jam value="true"/>
+</tls_building>
+
+<junctions>
+<no-internal-links value="false"/>
+<no-turnarounds value="true"/>
+<junctions.corner-detail value="5"/>
+<junctions.limit-turn-speed value="5.5"/>
+<rectangular-lane-cut value="false"/>
+</junctions>
+
+<pedestrian>
+<walkingareas value="true"/>
+</pedestrian>
+
+<netedit>
+<additional-files value="/Users/anders/tekno/__V2__/TAZ/addiaddiaddi.xml"/>
+</netedit>
+
+<report>
+<aggregate-warnings value="5"/>
+</report>
+
+</configuration>
+-->
+
+<additional xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/additional_file.xsd">
+<taz id="taz_s11e_in" shape="6991.67,1541.16 6979.50,1543.72 6978.54,1540.51 6973.74,1548.52 6980.46,1552.68 6980.14,1547.88 6991.99,1545.00 6991.67,1541.16" color="green">
+  <tazSource id="-gneE553" weight="1.00"/>
+  <tazSink id="-gneE553" weight="0.00"/>
+</taz>
+<taz id="taz_s11e_out" shape="6970.54,1501.78 6981.42,1498.90 6981.42,1503.38 6988.15,1495.05 6979.50,1492.17 6980.46,1496.01 6969.90,1498.57 6970.54,1501.78" color="red">
+  <tazSource id="gneE553" weight="0.00"/>
+  <tazSink id="gneE553" weight="1.00"/>
+</taz>
+<taz id="taz_s11s_in" shape="6683.29,1253.66 6684.03,1260.94 6682.06,1261.19 6685.76,1263.53 6688.48,1260.20 6686.01,1260.69 6685.14,1253.41 6683.29,1253.91 6683.29,1253.66" color="green">
+  <tazSource id="-gneE669" weight="1.00"/>
+  <tazSink id="-gneE669" weight="0.00"/>
+</taz>
+<taz id="taz_s11s_out" shape="6672.80,1266.37 6672.06,1259.58 6670.33,1259.95 6673.05,1256.87 6675.76,1259.46 6674.03,1259.46 6674.53,1266.13 6672.68,1266.25 6672.80,1266.37" color="red">
+  <tazSource id="gneE669" weight="0.00"/>
+  <tazSink id="gneE669" weight="1.00"/>
+  <tazSource id="gneE670" weight="0.00"/>
+  <tazSink id="gneE670" weight="1.00"/>
+</taz>
+<taz id="taz_s1n_in" shape="5075.46,2435.45 5075.46,2421.82 5069.49,2421.82 5078.87,2416.28 5083.98,2420.96 5084.83,2422.67 5080.14,2422.24 5078.87,2434.60 5075.88,2434.60 5075.46,2435.45" color="green">
+  <tazSource id="gneE660" weight="1.00"/>
+  <tazSink id="gneE660" weight="0.00"/>
+</taz>
+<taz id="taz_s1n_out" shape="5115.94,2418.41 5109.97,2417.98 5109.55,2432.04 5106.14,2432.04 5111.25,2439.71 5118.92,2433.32 5114.23,2432.47 5115.09,2418.83 5115.94,2418.41" color="red">
+  <tazSource id="gneE593.3" weight="0.00"/>
+  <tazSink id="gneE593.3" weight="1.00"/>
+</taz>
+<taz id="taz_s1r_in" shape="5079.85,2528.48 5093.53,2468.10 5089.14,2467.25 5097.76,2462.43 5100.03,2468.52 5096.17,2468.42 5085.40,2528.40 5079.85,2528.48" color="green">
+  <tazSource id="-gneE659" weight="1.00"/>
+  <tazSink id="-gneE659" weight="0.00"/>
+</taz>
+<taz id="taz_s1r_out" shape="5102.92,2461.42 5102.97,2518.91 5097.73,2518.69 5105.60,2528.75 5113.91,2519.34 5107.57,2519.12 5102.92,2461.42" color="red">
+  <tazSource id="gneE659" weight="0.00"/>
+  <tazSink id="gneE659" weight="1.00"/>
+</taz>
+<taz id="taz_s1w_in" shape="4962.37,2241.48 4977.87,2241.48 4977.52,2245.01 4984.21,2237.96 4977.87,2231.62 4977.52,2235.85 4962.72,2236.20 4962.72,2241.48 4962.37,2241.48" color="green">
+  <tazSource id="gneE412" weight="1.00"/>
+  <tazSink id="gneE412" weight="0.00"/>
+  <tazSource id="-gneE411" weight="1.00"/>
+  <tazSink id="-gneE411" weight="0.00"/>
+</taz>
+<taz id="taz_s1w_out" shape="4984.56,2291.49 4969.42,2291.49 4969.42,2289.03 4964.49,2294.31 4969.06,2299.59 4969.42,2296.77 4983.85,2296.77 4983.85,2292.20 4984.56,2291.49" color="red">
+  <tazSource id="gneE411" weight="0.00"/>
+  <tazSink id="gneE411" weight="1.00"/>
+  <tazSource id="gneE410" weight="0.00"/>
+  <tazSink id="gneE410" weight="1.00"/>
+</taz>
+<taz id="taz_s3n_in" shape="5899.86,2598.56 5908.30,2559.77 5899.02,2558.93 5915.89,2549.65 5923.48,2563.99 5915.04,2563.14 5906.61,2600.25 5899.86,2598.56" color="green">
+  <tazSource id="gneE532" weight="1.00"/>
+  <tazSink id="gneE532" weight="0.00"/>
+</taz>
+<taz id="taz_s3n_out" shape="5971.55,2562.30 5961.43,2600.25 5952.99,2599.41 5960.58,2613.74 5980.82,2605.31 5969.02,2603.62 5979.14,2568.20 5979.98,2564.83 5970.70,2563.99 5971.55,2562.30" color="red">
+  <tazSource id="gneE531" weight="0.00"/>
+  <tazSink id="gneE531" weight="1.00"/>
+</taz>
+<taz id="taz_s5n_in" shape="6605.57,2560.49 6608.24,2547.61 6604.24,2546.50 6612.01,2543.83 6613.79,2549.16 6610.46,2548.27 6607.79,2560.71 6607.79,2560.93 6605.57,2560.26 6605.57,2560.49" color="green">
+  <tazSource id="gneE667" weight="1.00"/>
+  <tazSink id="gneE667" weight="0.00"/>
+</taz>
+<taz id="taz_s5n_out" shape="6624.89,2545.39 6622.01,2559.60 6618.23,2558.71 6622.90,2564.48 6628.22,2561.82 6629.34,2561.15 6625.78,2560.49 6628.67,2546.94 6624.67,2545.83 6624.89,2545.39" color="red">
+  <tazSource id="gneE326" weight="0.00"/>
+  <tazSink id="gneE326" weight="1.00"/>
+</taz>
+<taz id="taz_s5r_in" shape="6762.21,2380.89 6756.15,2369.19 6766.11,2363.13 6764.38,2369.19 6789.95,2372.23 6787.35,2381.33 6763.08,2376.56 6761.78,2380.89 6762.21,2380.89" color="green">
+  <tazSink id="-gneE675" weight="0.00"/>
+  <tazSource id="-gneE675" weight="1.00"/>
+</taz>
+<taz id="taz_s5r_out" shape="6764.38,2342.33 6788.65,2346.23 6786.92,2352.29 6799.48,2344.06 6791.25,2334.52 6789.52,2340.16 6766.55,2336.26 6764.81,2342.76 6764.38,2342.33" color="red">
+  <tazSink id="gneE675" weight="1.00"/>
+  <tazSource id="gneE675" weight="0.00"/>
+</taz>
+<taz id="taz_s6s_in" shape="5135.73,1408.53 5135.73,1416.09 5133.55,1416.29 5136.73,1419.67 5140.30,1416.68 5140.50,1416.09 5138.12,1415.89 5138.32,1408.73 5135.73,1408.73 5135.73,1408.53" color="green">
+  <tazSource id="-gneE657" weight="1.00"/>
+  <tazSink id="-gneE657" weight="0.00"/>
+</taz>
+<taz id="taz_s6s_out" shape="5093.59,1422.05 5093.59,1414.10 5091.01,1413.90 5095.18,1410.32 5098.76,1413.90 5096.57,1414.10 5096.37,1422.25 5093.79,1422.05 5093.59,1422.05" color="red">
+  <tazSource id="gneE657" weight="0.00"/>
+  <tazSink id="gneE657" weight="1.00"/>
+  <tazSource id="gneE53" weight="0.00"/>
+  <tazSink id="gneE53" weight="1.00"/>
+</taz>
+<taz id="taz_s6w_in" shape="4898.37,1686.09 4906.92,1685.76 4906.75,1687.90 4910.86,1683.62 4907.25,1680.67 4907.25,1680.67 4906.92,1683.46 4898.70,1683.46 4898.37,1685.92 4898.37,1686.09" color="green">
+  <tazSource id="-gneE10" weight="1.00"/>
+  <tazSink id="-gneE10" weight="0.00"/>
+</taz>
+<taz id="taz_s6w_out" shape="4912.34,1719.93 4902.65,1720.10 4902.65,1718.29 4902.65,1718.45 4899.85,1721.74 4902.65,1724.86 4902.65,1722.73 4911.85,1722.73 4912.01,1722.73 4912.17,1719.93 4912.34,1719.93" color="red">
+  <tazSource id="gneE10" weight="0.00"/>
+  <tazSink id="gneE10" weight="1.00"/>
+</taz>
+<taz id="taz_s9s_in" shape="6023.18,1340.99 6018.74,1339.38 6021.77,1338.77 6020.76,1330.09 6023.59,1329.89 6023.39,1338.37 6026.21,1338.37 6023.39,1340.79 6023.18,1340.99" color="green">
+  <tazSource id="-gneE133" weight="1.00"/>
+  <tazSink id="-gneE133" weight="0.00"/>
+</taz>
+<taz id="taz_s9s_out" shape="6010.47,1340.59 6009.86,1332.51 6007.23,1332.71 6011.27,1329.48 6014.30,1332.11 6011.47,1332.51 6011.68,1340.18 6010.67,1340.18 6010.47,1340.59" color="red">
+  <tazSource id="gneE133" weight="0.00"/>
+  <tazSink id="gneE133" weight="1.00"/>
+</taz>
+</additional>
