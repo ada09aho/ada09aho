@@ -26,8 +26,8 @@ TFS =   [0 0 0 TFO(3) TFO(6) TFO(11);
         TFO(13) TFO(17) TFO(21) 0 0 0;
         0 TFO(2) TFO(6) 0 TFO(14) TFO(18)];
 
-DIR = (TFS - TFI) .* SC;
-EVA = ((C + DIR) ./ C) .* SC; % EVAcuation of streets respectively
+DIFF = (TFS - TFI) .* SC;
+EVA = ((C + DIFF) ./ C) .* SC; % EVAcuation of streets respectively
 
 E = find(EVA); % finds indices of all nonzero elements
 WS = EVA(E); % column vector with nonzero values of EVA
