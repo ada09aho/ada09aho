@@ -1,0 +1,154 @@
+<additional>
+  <!-- s1 alt d,id="cluster_cluster_cluster_cluster_cluster_gneJ349_gneJ351_gneJ353_gneJ355_gneJ356_gneJ358_gneJ361_gneJ362_gneJ365_gneJ367_gneJ371_cluster_gneJ350_gneJ551_gneJ534_gneJ555_gneJ543" 53 phases, begins from traffic lanes from east. ends with crossings DONE! -->
+  <tlLogic id="gneJ710" programID="1" offset="0" type="static">
+    <phase duration="3" state="rrrrrrrrggrrrrrrrrggrrrrrrrrrrrggGgGrgrggGGGrrGgrrGrr"/>
+    <phase duration="3" state="rrrrrrrrggrrrrrrrrggrrrrrrrrrrrggGgGgggggGgGgGGgrrGrr"/>
+    <phase duration="30" state="GGrrrrrrggrrrrrrrrggrrrrrrrrrrrggGgGgggggGgGgGGgrrGrr"/>
+    <phase duration="3" state="GGrrrrrrggrrrrrrrrggrrrrrrrrrrrggryyyrryyyyyyyGgrrrrr"/>
+    <phase duration="18"  state="ggGGGGgGggrrrrrrrrggrrrrrrrrrrrggrrrrrrrrrrrrrggGgrrr"/>
+    <phase duration="15"  state="ggGGGGgGggrrGrrrrrggrrrrrrrrrrrggrrrrrrrrrrrrrggGgrrr"/>
+    <phase duration="3"  state="ggGGGyyyggrrGrrrrrggrrrrrrrrrrrggrrrrrrrrrrrrrggGgrrr"/>
+    <phase duration="3"  state="ggGGGrrrggrrGrrrrrggrrrrrrrrrrrggrrrrrrrrrrrrrggGgrrr"/>
+    <phase duration="3"  state="yyyyyrrrggrrGrrrrrggrrrrrrrrrrrggrrrrrrrrrrrrrggrrrrr"/>
+    <phase duration="3"  state="rrrrrrrrggGrgGGGrrggrrrrrrrrrrrggrrrrrrrrrrrrrggrrrrr"/>
+    <phase duration="33"  state="rrrrrrrrggGrgGGGGGggrrggrrrrrrrggrrrrrrrrrrrrrggrrrrr"/>
+    <phase duration="3"  state="rrrrrrrrggrryyyyyyggrrggrrrrrrrggrrrrrrrrrrrrrggrrrrr"/>
+    <phase duration="12" state="rrrrrrrrggrrrrrrrrggGggggGGGGggggrrrrrrrrrrrrrggrrrrr"/>
+    <phase duration="45" state="rrrrrrrrggrrrrrrrrggGggggGGGGggggrgrrrrGGrrrrrggrrrrr"/>
+    <phase duration="3" state="rrrrrrrrggrrrrrrrrggrryyyyyyyyyggrrrrrrrrrrrrrggrrrrr"/>
+    
+  </tlLogic>
+
+  <!-- s2,id="cluster_cluster_cluster_gneJ237_gneJ263_gneJ577_gneJ578_gneJ599_gneJ601",  24 states -->
+  <tlLogic id="gneJ605" type="static" programID="1" offset="0">
+    <phase duration="127" state="gGGGGrrrrrrGGrGGGrrrGgGr"/>
+    <phase duration="3" state="yyyyyrrrrrrrrryyyrrrrrrr"/>
+    <phase duration="46" state="rrrrrGGGGGGrrgrrrGggrrrr"/>
+    <phase duration="3" state="rrrrryyyyyyrrrrrryyyrrrr"/>
+  </tlLogic>
+
+  <!-- s3,id="cluster_gneJ530_gneJ541_gneJ595_gneJ600_s3",  43 states, från gående öst -->
+  <tlLogic id="gneJ602" type="static" programID="1" offset="0">
+    <phase duration="48" state="GgrrrrrrrrGGgrgGgrrrGgrrrrrrrrrGGGrgggGggGr"/>
+    <phase duration="3" state="GgrrrrrrrrGgrryyyrrrGgrrrrrrrrrGgrryyyyyyyr"/>
+    <phase duration="9" state="GgrrrrrrrrGgrgrrrgGgGgrrrrrrrrrGgrgrrrrrrrG"/>
+    <phase duration="27" state="GgrrrrrrrrGgrgrrrgGgGgrrGgrrrrrGgrgrrrrrrrG"/>
+    <phase duration="3" state="GgrrrrrrrrGgrrrrryyyGgrrggrrrrrGgrrrrrrrrry"/>
+    <phase duration="57" state="GgGrGGGrrrGgrrrrrrrrGgGrggGGGrrGgrrrrrrrrrr"/>
+    <phase duration="3" state="GgrryyyrrrGgrrrrrrrrGgrryyyyyrrGgrrrrrrrrrr"/>
+    <phase duration="36" state="ggrgrrrGGgggrrGrrrrrggrgrrrrrGgggrrGGgrrrrr"/>
+    <phase duration="3" state="GgrrrrryyyGgrrGrrrrrGgrrrrrrryyGgrrgggrrrrr"/>
+  </tlLogic>
+
+  <!-- s5,id="cluster_cluster_cluster_cluster_gneJ210_gneJ292_gneJ296_gneJ301_gneJ302_gneJ303_gneJ350_gneJ630_gneJ617_gneJ639",  26 states, från gående öst -->
+  <tlLogic id="gneJ661" type="static" programID="1" offset="0">
+    <phase duration="42" state="GrgGGGrrrGgrrrrrrrrgGgGGG"/>
+    <phase duration="3" state="GrgGGGrrrGgrrrrrrrrgGyGGG"/>
+    <phase duration="33" state="GrgGGGrrrGgrrrrrrrrgGrGGG"/>
+    <phase duration="3" state="GryyyyrrrGgrrrrrrrrgrryyy"/>
+    <phase duration="48" state="ggrrrrGggGgrrrrrrrrgrrrrr"/>
+    <phase duration="3" state="gyrrrryyyGgrrrrrrrrgrrrrr"/>
+    <phase duration="42" state="grrrrrrrrGggGGGgGGggrgrrr"/>
+    <phase duration="3" state="GrrrrrrrrGgryyyyyyygryrrr"/>
+  </tlLogic>
+
+  <!-- s6, id="cluster_cluster_cluster_gneJ481_gneJ483_gneJ484_gneJ485_gneJ486_gneJ487_gneJ488_gneJ483_gneJ56_gneJ59_gneJ75_gneJ61", 41 states, börjar från bil Norr ifrån-->
+  <tlLogic id="cluster_cluster_cluster_gneJ481_gneJ483_gneJ484_gneJ485_gneJ486_gneJ487_gneJ488_gneJ483_gneJ56_gneJ59_gneJ75_gneJ61" type="static" programID="1" offset="0">
+    <phase duration="39" state="gGgGrrrGgrrrrrrrrrGGrrgGGGrGgrrrrrrrrGgGr"/>
+    <phase duration="3" state="gyyyrrrGgrrrrrrrrrgrrryyyyrGgrrrrrrrrGgrr"/>
+    <phase duration="24" state="GrrrGGgGGrrGrrrrrrGrgGrrrrGGGrrGGrrrrGgrg"/>
+    <phase duration="3" state="yrrrGGgGGrrGrrrrrrGrgGrrrrGGGrrGGrrrrGgrg"/>
+    <phase duration="15" state="rrrrGGgGGrrGrrrrrrGrgGrrrrGGGrrGGrrrrGgrg"/>
+    <phase duration="3" state="rrrryyyGgrrGrrrrrrGrryrrrryGgrrGGrrrrGgrr"/>
+    <phase duration="39" state="rrrrrrrGgGrgGGrrrrGrrrrrrrrGgGrggGGrrGgrr"/>
+    <phase duration="3" state="rrrrrrrGgrrgyyrrrrGrrrrrrrrGgrrggyyrrGgrr"/>
+    <phase duration="9" state="GrrrrrrGgrggrrGgGgGrrrrrrrrGgrgggrrGGGgrr"/>
+    <phase duration="3" state="GrrrrrrGgrgyrrGgGgGrrrrrrrrGgrgyyrrGGGgrr"/>
+    <phase duration="15" state="GrrrrrrGgrgrrrGgGgGrrrrrrrrGgrgrrrrGGGgrr"/>
+    <phase duration="3" state="GrrrrrrGgrrrrryyyyGrrrrrrrrGgrrrrrryyGgrr"/>
+  </tlLogic>
+
+  <!-- s7, id="cluster_gneJ470_gneJ471_gneJ514_gneJ516_s7gneJ86", 25 states, gående från öst  -->
+  <tlLogic id="gneJ519" type="static" programID="1" offset="0">
+    <phase duration="10" state="GgGrrrGGGrrGgGrrGGGrrrrrr"/>
+    <phase duration="49" state="GgGrggGGGrrGgGrgGGGrrrrrr"/>
+    <phase duration="3" state="rrrryyyyyrrrrrryyyyrrrrrr"/>
+    <phase duration="31" state="rgrgrrrrrggrgrgrrrrgggGGG"/>
+    <phase duration="3" state="rrrrrrrrryyrrrrrrrryyyrrr"/>
+  </tlLogic>
+
+  <!-- s8, id="cluster_gneJ472_gneJ473_gneJ503_gneJ510_s8gneJ121", 16 states, väg öst  -->
+  <tlLogic id="gneJ512" type="static" programID="2" offset="0">
+    <phase duration="77" state="rrrrrrGGrrrrrrGG"/>
+    <phase duration="100" state="gGgGGGrrgGgGGGrr"/>
+    <phase duration="3" state="yyyyrrrryyyyrrrr"/>
+  </tlLogic>
+
+  <!-- s9, id="", 34 states, gående öst  -->
+  <tlLogic id="gneJ666" type="static" programID="1" offset="0">
+    <phase duration="72" state="GgrrrrrrrGgGrgGGrGgrrrrrrrGgGrgGGr"/>
+    <phase duration="3" state="GgrrrrrrrGgrryyyrGgrrrrrrrGgrryyyr"/>
+    <phase duration="12" state="GgrrrrrrrGgrgrrrGGgrrrrrrrGgrgrrrG"/>
+    <phase duration="9" state="GgrrGrrrrGgrgrrrGGgrrGrrrrGgrgrrrG"/>
+    <phase duration="3" state="GgrrGrrrrGgrrrrryGgrrGrrrrGgrrrrry"/>
+    <phase duration="39" state="GgGrgGGrrGgrrrrrrGgGrgGGrrGgrrrrrr"/>
+    <phase duration="3" state="GgrryyyrrGgrrrrrrGgrryyyrrGgrrrrrr"/>
+    <phase duration="30" state="GgrgrrrGGGgrrrrrrGgrgrrrGGGgrrrrrr"/>
+    <phase duration="3" state="GgrrrrryyGgrrrrrrGgrrrrryyGgrrrrrr"/>
+  </tlLogic>
+
+  <!-- s10, id="cluster_gneJ144_gneJ489_gneJ490", 12 states, car from north -->
+  <tlLogic id="cluster_gneJ144_gneJ489_gneJ490" programID="1" offset="0" type="static">
+    <phase duration="96" state="rrGgGgGGGGGG"/>
+    <phase duration="3"  state="rrrrryyyyyyy"/>
+    <phase duration="78"  state="GGrrrrrrrrrr"/>
+  </tlLogic>
+
+  <!-- s11, id="gneJ147", 19 states, from north  -->
+  <tlLogic id="gneJ147" type="static" programID="1" offset="0">
+    <phase duration="42" state="GGGggrrrrrrrrrrrrrr"/>
+    <phase duration="3" state="yyyyyrrrrrrrrrrrrrr"/>
+    <phase duration="42" state="rrrrrGGGGGgrrrrrrrr"/>
+    <phase duration="3" state="rrrrryyyyyyrrrrrrrr"/>
+    <phase duration="42" state="rrrrrrrrrrrGGGGgrrr"/>
+    <phase duration="3" state="rrrrrrrrrrryyyyyrrr"/>
+    <phase duration="42" state="rrrrrrrrrrrrrrrrGGg"/>
+    <phase duration="3" state="rrrrrrrrrrrrrrrryyy"/>
+  </tlLogic>
+
+  <!-- o1, id="cluster_cluster_cluster_gneJ102_gneJ33_gneJ482_gneJ522_gneJ58_gneJ481_gneJ57", 21 states, gående öst -->
+  <tlLogic id="cluster_cluster_cluster_gneJ102_gneJ33_gneJ482_gneJ522_gneJ58_gneJ481_gneJ57" type="static" programID="1" offset="0">
+    <phase duration="81" state="GGgGrgGGGrrrGgGrgGGGr"/>
+    <phase duration="3" state="gGgGryyyyrrrrrrryyyyr"/>
+    <phase duration="31" state="ggggGrrrrGGgrgrGrrrrG"/>
+    <phase duration="3" state="ggggrrrrryyyrgrrrrrrr"/>
+    <phase duration="23" state="GGgGrgGGGrrrGgGrgGGGr"/>
+    <phase duration="3" state="gGgGryyyyrrrrrrryyyyr"/>
+    <phase duration="31" state="ggggGrrrrGGgrgrGrrrrG"/>
+    <phase duration="3" state="ggggrrrrryyyrgrrrrrrr"/>
+  </tlLogic>
+
+  <!-- o2, id="gneJ606", 16 states, gående syd -->
+  <tlLogic id="gneJ606" type="static" programID="1" offset="0">
+    <phase duration="130" state="GgGgGGGrrGgGgGGG"/>
+    <phase duration="3" state="GgGyyyyrrrrryyyy"/>
+    <phase duration="40" state="GgGrrrrgGrgrrrrr"/>
+    <phase duration="3" state="GgGrrrryyrgrrrrr"/>
+  </tlLogic>
+
+  <!-- o3-1, id="cluster_cluster_cluster_gneJ249_gneJ598_gneJ618_gneJ688_gneJ714", 7 states, väg syd  -->
+  <tlLogic id="gneJ716" type="static" programID="1" offset="0">
+    <phase duration="127" state="rrGGGGr"/>
+    <phase duration="3" state="rrryyyr"/>
+    <phase duration="46" state="GGrrrrG"/>
+    <phase duration="3" state="yyrrrrr"/>
+  </tlLogic>
+
+  <!-- o3-2, id="cluster_cluster_gneJ230_gneJ689_gneJ690_gneJ713", 5 states, väg öst  -->
+  <tlLogic id="gneJ715" type="static" programID="1" offset="0">
+    <phase duration="127" state="GGGGr"/>
+    <phase duration="3" state="yyyGr"/>
+    <phase duration="46" state="rrrGG"/>
+    <phase duration="3" state="rrrGr"/>
+  </tlLogic>
+</additional>
